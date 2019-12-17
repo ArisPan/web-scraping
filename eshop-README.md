@@ -1,4 +1,4 @@
-# eshop.gr/crazysundays web scraper
+# eshop.gr/crazysundays Web Scraper
 A python script that retrieves all discounted products and outputs them in both json and csv format.
 
 # Site Discription
