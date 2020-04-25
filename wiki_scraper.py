@@ -1,7 +1,7 @@
 # A python script to retrieve random Wikipedia articles.
 # Every article is written in a .txt file and saved in a new directory under current working directory.
 # Based on Wiki API: https://pypi.org/project/Wikipedia-API/
-#  					 https://wikipedia.readthedocs.io/en/latest/code.html
+#  					 https://pypi.org/project/wikipedia/
 
 import wikipediaapi
 import wikipedia
