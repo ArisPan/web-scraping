@@ -23,7 +23,7 @@ All python modules used:
 **Install using pip:**
 ```
 pip install tqdm
-pip install wikipediaapi
+pip install Wikipedia-API
 pip install wikipedia
 ```
 To execute just type `python wiki_scraper2.py`
