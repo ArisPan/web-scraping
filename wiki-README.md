@@ -26,4 +26,11 @@ pip install tqdm
 pip install Wikipedia-API
 pip install wikipedia
 ```
-To execute just type `python wiki_scraper2.py`
+To run, simply type:
+```
+python wiki_scraper.py
+```
+or
+```
+python wiki_scraper2.py
+```
