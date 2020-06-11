@@ -4,17 +4,17 @@ Not a scraper per se since Python wrappers of Wiki API were used to retrieve the
 Every article is written in a .txt file and saved in a new directory under current working directory.\
 Every file is named after each articles title.
 
-# Python wrappers of Wiki API
+## Python wrappers of Wiki API
 1. [Wikipedia-API 0.5.4](https://pypi.org/project/Wikipedia-API/)
 2. [wikipedia 1.4.0](https://pypi.org/project/wikipedia/)
 
-# Versioning
+## Versioning
 **Version 1** comprises basic functionality described above.\
 **Version 2** includes added features like a progress bar, courtesy of [tqdm](https://github.com/tqdm/tqdm).\
 A Wiki article may include characters in its title which are invalid as a file name. In Windows this characters are <>:"/\\|?*
 This issue is addressed in version 2 by adding a second pass to the rejected file names after having stripped all invalid characters.
 
-# Dependencies
+## Dependencies
 All python modules used:
 1. **tqdm**
 2. **wikipediaapi**
@@ -26,6 +26,9 @@ pip install tqdm
 pip install Wikipedia-API
 pip install wikipedia
 ```
+
+## How to run
+The number of articles to be written on disk is determined by the variable *NUMBER_OF_WIKI_ARTICLES* at the top of the script. Change that to suit your needs.
 To run, simply type:
 ```
 python wiki_scraper.py
